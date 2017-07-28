@@ -9,6 +9,13 @@ html, body
   max-height: 1080px;
   margin: 0;
   padding: 0;
+  overflow: hidden;
+}
+
+html
+{
+  width: 100%;
+  height: 975px;
 }
 
 ul
@@ -28,7 +35,6 @@ ul
   position: fixed;
   width: 100%;
   height: 19%;
-  background: red;
 }
 
 .header-left
@@ -54,19 +60,33 @@ ul
   margin-right: 15%;
 }
 
+.content
+{
+  background: green;
+  height: 800px;
+  margin-top: 10%;
+}
+
 .content-menu
 {
-  background-color: yellow;
   width: 100%;
-  height: 80%;
+  height: 100%;
 }
 
 .content-top
 {
-  background: blue;
-  width: 100px;
+  background-image: url('../img/content-top.jpg');
+  background-position: center;
+  background-size: 100%;
+  height: 50%;
+  width: 100%;
 }
 
-
-
-.
+.content-bottom
+{
+  background-image: url('../img/content-bottom.jpg');
+  background-position: center;
+  background-size: 100%;
+  height: 50%;
+  width: 100%;
+}
